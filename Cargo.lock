@@ -1242,16 +1242,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "658646b21e0b72f7866c7038ab086d3d5e1cd6271f060fd37defb241949d0582"
 dependencies = [
  "digest 0.10.3",
- "md5-asm",
-]
-
-[[package]]
-name = "md5-asm"
-version = "0.5.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "73b9a6f25ec11ea27e22d7fc8beafda909da44ece95f63e94f1eeb23d19bb5c7"
-dependencies = [
- "cc",
 ]
 
 [[package]]
@@ -2003,16 +1993,6 @@ dependencies = [
  "cfg-if",
  "cpufeatures",
  "digest 0.10.3",
- "sha1-asm",
-]
-
-[[package]]
-name = "sha1-asm"
-version = "0.5.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "563d4f7100bc3fce234e5f37bbf63dc2752558964505ba6ac3f7204bdc59eaac"
-dependencies = [
- "cc",
 ]
 
 [[package]]
@@ -2055,9 +2035,9 @@ dependencies = [
 
 [[package]]
 name = "shadowsocks-crypto"
-version = "0.4.0"
+version = "0.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "daff9970653117a16e317197c0e9b81eeaca0d138eb824c3243a6aa8cf61a645"
+checksum = "db328db53587068194944fb659b7c8853bfd8b314178231c69d34656e687e08d"
 dependencies = [
  "aes 0.7.5",
  "aes-gcm",
